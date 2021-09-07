@@ -1,0 +1,87 @@
+.App {
+  text-align: left;
+}
+
+.App-header {
+  background-color: lightblue;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.headline {
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  margin: 7%;
+  width: 70%;
+}
+
+@media (max-width: 1000px) {
+  .container {
+    flex-direction: column;
+  }
+}
+
+.column {
+  padding: 2%;
+  width: 100%;
+}
+
+.infoFont {
+  font-size: 12pt;
+  text-align: left;
+}
+
+.infoButton {
+  background-color: white;
+  text-align: center;
+  width: 30%;
+  padding: 3%;
+  margin: 5%;
+  border: none;
+  font-weight: bold;
+  border-radius: 5px 0px 5px 0px;
+}
+
+.formFont {
+  color: grey;
+  font-size: 12pt;
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-size: 12pt;
+  color: grey;
+}
+
+.inputFields {
+  padding: 2%;
+}
+
+.submitButton {
+  background-color: #1880d3;
+  text-align: center;
+  width: 30%;
+  padding: 3%;
+  margin: 5%;
+  color: white;
+  border: none;
+  font-weight: bold;
+  border-radius: 5px 0px 5px 0px;
+}
+
+.consents {
+  color: grey;
+  font-size: 12pt;
+  font-weight: bold;
+}
